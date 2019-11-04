@@ -1,0 +1,180 @@
+.dial-group {
+  position: relative;
+  width: 810px;
+  height: 405.00px; }
+
+.dial-tracker__wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 100; }
+
+.dial-clock__wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%; }
+
+.dial__hand {
+  width: 0;
+  position: absolute;
+  height: 0;
+  border-style: solid;
+  border-width: 0 12.3px 357px 12.3px;
+  cursor: grab;
+  border-color: transparent transparent #fff transparent;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-88deg);
+  transform-origin: 50% 100%; }
+
+.dial__crown {
+  background-color: #fcfbfa;
+  width: 6%;
+  height: 12%;
+  position: absolute;
+  bottom: -6%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 100%; }
+
+.dial__context {
+  position: absolute;
+  height: 100%;
+  width: 100%; }
+  .dial__context-section {
+    position: absolute;
+    display: flex;
+    width: 100%; }
+    .dial__context-section--1 {
+      flex-direction: column;
+      align-items: center; }
+    .dial__context-section--2 {
+      justify-content: space-between;
+      margin-top: 31%;
+      box-sizing: border-box; }
+    .dial__context-section--3 {
+      justify-content: center;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 108%;
+      visibility: hidden; }
+    .dial__context-section--show {
+      visibility: visible; }
+    .dial__context-section--hide {
+      visibility: hidden; }
+  .dial__context--wrapper {
+    display: flex;
+    align-items: center; }
+    .dial__context--wrapper--1 {
+      flex: 0 0 50%;
+      justify-content: flex-start; }
+    .dial__context--wrapper--2 {
+      flex: 0 0 50%;
+      justify-content: flex-end; }
+
+.dial__line {
+  background-color: #56504b;
+  border: solid 0.1rem #56504b; }
+  .dial__line--0 {
+    transform: rotate(112.5deg); }
+  .dial__line--1 {
+    transform: translateY(-8%); }
+  .dial__line--2 {
+    transform: rotate(-112.5deg); }
+
+.dial__text--0c {
+  margin-left: 7%;
+  transform: translateY(18%); }
+
+.dial__text--1c {
+  margin-top: 3px; }
+
+.dial__text--2c {
+  margin-right: 7%;
+  transform: translateY(18%); }
+
+.likert__input {
+  display: none; }
+
+.likert__container {
+  width: 800px;
+  height: 400px; }
+
+.likert__form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; }
+
+.likert__button {
+  border: 2px solid #fff;
+  width: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150%;
+  box-sizing: content-box; }
+  .likert__input:checked ~ .likert__label .likert__button {
+    background-color: #a25a36;
+    border: 2px solid #a25a36; }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0; }
+
+*:focus {
+  outline: none; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline; }
+
+svg {
+  height: 0;
+  width: 0;
+  position: absolute; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  overflow: hidden;
+  font-size: 125%;
+  box-sizing: border-box; }
+
+.panel--0 {
+  z-index: 1000; }
+
+.pathfinder {
+  transform: translateX(-400vw); }
+
+.panel {
+  height: 100vh;
+  position: absolute;
+  width: 100vw;
+  border: 1px solid black;
+  background: red; }
+
+.btn__progress {
+  cursor: pointer;
+  background: #000;
+  width: 100px;
+  height: 50px; }

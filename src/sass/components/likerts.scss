@@ -1,0 +1,30 @@
+.likert{
+	&__input{
+		display: none;
+	}
+	&__container{
+    width: 800px;
+    height: 400px;
+	}
+	&__form{
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__button{
+		border: 2px solid #fff;
+    width: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150%;
+        box-sizing: content-box;
+
+    .likert__input:checked ~ .likert__label &{
+    	background-color: #a25a36;
+	    border: 2px solid #a25a36;
+    }
+	}
+	
+}
