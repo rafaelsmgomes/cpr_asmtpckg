@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.3",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "bodymovin": "^4.13.0",
     "cpr_pathpackage": "^0.2.5",
     "formjax": "^2.2.1",
